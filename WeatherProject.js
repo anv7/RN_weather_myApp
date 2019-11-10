@@ -1,5 +1,5 @@
-import React, {Component} from 'react'
-import { StyleSheet, Text, View, TextInput } from 'react-native'
+import React, {Component} from 'react';
+import { StyleSheet, Text, View, TextInput } from 'react-native';
 
 class WeatherProject extends Component{
     constructor(props){
@@ -15,15 +15,15 @@ class WeatherProject extends Component{
 
     render(){
         return (
-            <view>
+            <View>
                 <Text>
                     You input { this.state.zip }
                 </Text>
                 <TextInput onSubmitEditing={this._handleTextChange} />
-            </view>
+            </View>
         )
     }
 }
 
 
-export default WeatherProject
+export default WeatherProject;
